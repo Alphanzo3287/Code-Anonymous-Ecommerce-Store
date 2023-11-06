@@ -18,10 +18,11 @@ services:
 startup: {type: form, module: Base}
 package_name: Tutorial
 allow_embedding: false
-name: Clone of Tutorial
+name: Code Anonymous Ecommerce Store
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-metadata: {title: Tutorial, description: Tutorial}
+metadata: {title: Code Anonymous Ecommerce Store, description: Course for sale on ecommerce store,
+  logo_img: 'asset:CA_logo-logo.jpeg'}
 startup_form: null
 db_schema:
   users:
