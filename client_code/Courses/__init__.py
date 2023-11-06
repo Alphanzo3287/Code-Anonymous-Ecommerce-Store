@@ -34,4 +34,3 @@ class Courses(CoursesTemplate):
       course_panel.add_component(c, row=str(i//2), width_xs=6)
     
     self.content_panel.add_component(course_panel)
-    
