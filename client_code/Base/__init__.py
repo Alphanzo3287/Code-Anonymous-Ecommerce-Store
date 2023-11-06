@@ -12,6 +12,7 @@ from ..Home import Home
 from ..MyCourses import MyCourses
 from .urls import urls
 
+
 class Base(BaseTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
